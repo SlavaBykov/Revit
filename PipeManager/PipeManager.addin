@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RevitAddIns>
+<AddIn Type="Application">
+  <Assembly>PipeManager.dll</Assembly>
+  <ClientId>9d54a5cc-74f3-4f38-bd75-d600d017def3</ClientId>
+  <FullClassName>PipeManager.App</FullClassName>
+  <Name>Application</Name>
+  <VendorId>ADSK</VendorId>
+  <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+</AddIn>
+  <AddIn Type="Command">
+    <Assembly>PipeManager.dll</Assembly>
+    <ClientId>d1a978fb-690f-48dc-932d-e43de43545be</ClientId>
+    <FullClassName>PipeManager.Command</FullClassName>
+    <Name>Application</Name>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
