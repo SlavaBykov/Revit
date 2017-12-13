@@ -11,7 +11,15 @@
   <AddIn Type="Command">
     <Assembly>PipeManager.dll</Assembly>
     <ClientId>d1a978fb-690f-48dc-932d-e43de43545be</ClientId>
-    <FullClassName>PipeManager.Controller.Controller</FullClassName>
+    <FullClassName>PipeManager.Command.CommandProvider</FullClassName>
+    <Name>Application</Name>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Vyachaslav Bykov, slawa.bykow@mail.ru</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>PipeManager.dll</Assembly>
+    <ClientId>2dc0a345-8a65-4af7-973a-0f3f6ab8d884</ClientId>
+    <FullClassName>PipeManager.Command.AddPipe</FullClassName>
     <Name>Application</Name>
     <VendorId>ADSK</VendorId>
     <VendorDescription>Vyachaslav Bykov, slawa.bykow@mail.ru</VendorDescription>

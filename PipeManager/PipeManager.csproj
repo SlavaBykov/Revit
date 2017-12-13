@@ -63,25 +63,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppStart\App.cs" />
-    <Compile Include="Controller\Controller.cs" />
+    <Compile Include="Command\CommandException.cs" />
+    <Compile Include="Command\CommandProvider.cs" />
+    <Compile Include="Command\AddPipe.cs" />
     <Compile Include="Entity\Izolation.cs" />
     <Compile Include="Entity\Paint.cs" />
     <Compile Include="Entity\Painting.cs" />
     <Compile Include="Entity\Pipe.cs" />
     <Compile Include="Entity\Work.cs" />
-    <Compile Include="ExcelLogic\RunExcel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\AddData.cs" />
     <Compile Include="Service\Constanta.cs" />
     <Compile Include="Service\Converter.cs" />
     <Compile Include="Service\Logic.cs" />
+    <Compile Include="Service\ServiceException.cs" />
+    <Compile Include="Service\ServiceFactory.cs" />
     <Compile Include="Service\Vedomostlogic.cs" />
+    <Compile Include="Service\WorkService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="PipeManager.addin">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ExcelLogic\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

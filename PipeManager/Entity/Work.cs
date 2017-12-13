@@ -12,7 +12,7 @@ namespace PipeManager.Entity
         public string Unit { get; set; }
         public string Note { get; set; }
         public double Count { get; set; }
-        List<Work> list;
+        
 
         public Work(string name, string unit, double count, string note) {
             Name = name;
