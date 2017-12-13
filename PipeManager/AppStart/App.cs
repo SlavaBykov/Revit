@@ -7,7 +7,7 @@ using Autodesk.Revit.UI;
 using System.Reflection;
 using System.Windows.Media.Imaging;
 
-namespace PipeManager
+namespace PipeManager.AppStart
 {
     class App : IExternalApplication
     {
@@ -18,7 +18,7 @@ namespace PipeManager
             // Reflection to look for this assembly path 
             string thisAssemblyPath = Assembly.GetExecutingAssembly().Location;
             // Add button to panel
-            PushButton button = panel.AddItem(new PushButtonData("Button", "API Button", thisAssemblyPath, "PipeManager.Command")) as PushButton;
+            PushButton button = panel.AddItem(new PushButtonData("Button", "API Button", thisAssemblyPath, "PipeManager.Controller.Controller")) as PushButton;
             // Add tool tip 
             button.ToolTip = "this is a sample";
             // Reflection of path to image 
